@@ -2676,10 +2676,10 @@ section{
 .link-group{
     margin-left: -20px;
 }
-.link-group a{
+.link-group span{
     color: var(--mired);
     font-size: 16px;
-    display: inline-block;
+    display: inline;
     padding: 0 20px;
     line-height: 100%;
     border-right: 1px solid #dedede;
