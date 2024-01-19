@@ -69,7 +69,6 @@
 .mainMenu{
     text-align: right;
 }
-.mainMenu ul{}
 .mainMenu ul li{
     display: inline-block;
     margin-right: 30px;
@@ -348,7 +347,7 @@
 .aboutTop{
     padding-top: 163px;
     padding-bottom: 230px;
-    background: #1d1d1d url(../images/bg/1.jpg) no-repeat scroll center center/cover;
+    background: #1d1d1d url(../images/bg/1.webp) no-repeat scroll center center/cover;
 }
 .aboutBottom{
     background: #c40661;
@@ -383,6 +382,7 @@
     */
     background: #000;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff00de', endColorstr='#ffd200',GradientType=1 ); 
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 13px 16px 27px rgba(0, 0, 0, .11);
@@ -518,7 +518,6 @@
     height: auto;
     margin-bottom: 21px;
 }
-.teamDeg{}
 .teamDeg h4{
     color: #000;
     margin: 0 0 4px;
@@ -535,12 +534,11 @@
 [05] WHAT WE DO
 =========================================================================*/
 .whatwe{
-    background: url(../images/bg/2.jpg) no-repeat center fixed;
+    background: url(../images/bg/2.webp) no-repeat center fixed;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.wedoContent{}
 .wedoContent h5 {
     margin-bottom: 39px;
 }
@@ -671,7 +669,6 @@
 #workCarousel .slick-next{
     right: 157px;
 }
-.singleWorkContent{}
 .singleWorkContent h2 {
     color: #fff;
     font-weight: 600 !important;
@@ -721,11 +718,11 @@
 [08] TESTMONIAL
 =========================================================================*/
 .testmonialSec{
-    background: url(../images/bg/3.jpg) no-repeat fixed center center/cover;
+    background: url(../images/bg/3.webp) no-repeat fixed center center/cover;
     margin-bottom: 123px;
 }
 #testmonialCaro{
-    background: #333 url(../images/bg/4.jpg) no-repeat scroll center center/cover;
+    background: #333 url(../images/bg/4.webp) no-repeat scroll center center/cover;
     width: 900px;
     margin: auto;
     padding: 153px 127px 29px;
@@ -801,7 +798,6 @@
     padding-top: 149px;
     padding-bottom: 90px;
 }
-.singleClient{}
 .singleClient{
     width: 230px;
     height: 130px;
@@ -828,7 +824,7 @@
 [10] OUR BLOG
 =========================================================================*/
 .blogSection{
-    background: url(../images/bg/5.jpg) no-repeat fixed center center/cover;
+    background: url(../images/bg/5.webp) no-repeat fixed center center/cover;
     padding: 123px 0 140px;
 }
 .singleBlog{
@@ -1230,15 +1226,15 @@
     padding: 21px 90px 21px;
 }
 .aboutBottom.home_page2{
-    background: url(../images/bg/6.jpg) no-repeat scroll center center/cover;
+    background: url(../images/bg/6.webp) no-repeat scroll center center/cover;
     position: relative;
 }
 .aboutTop.home_page2 {
-    /*background: url("../images/bg/7.jpg") no-repeat scroll center center / cover ;*/
+    /*background: url("../images/bg/7.webp") no-repeat scroll center center / cover ;*/
     background: #fff;
 }
 .whatwe.home_page2{
-    background: url("../images/mi/whatwe-bg.jpg") no-repeat fixed center center / cover ;
+    background: url("../images/mi/whatwe-bg.webp") no-repeat fixed center center / cover ;
 }
 .overlayHover{
     background: rgba(38, 38, 38, 0.3);
@@ -1361,14 +1357,14 @@
     -webkit-transform: scale(1.08) rotate(-2deg);
 }
 .testmonialSec.home_page2{
-    background: url("../images/bg/9.jpg") no-repeat fixed center 0 / cover;
+    background: url("../images/bg/9.webp") no-repeat fixed center 0 / cover;
     position: relative;
 }
 #testmonialCaro.home_page2::before{
     color: var(--mired);
 }
 .blogSection.home_page2{
-    background: url("../images/bg/10.jpg") no-repeat scroll center center / cover;
+    background: url("../images/bg/10.webp") no-repeat scroll center center / cover;
 }
 .contact.home_page2{
     background: #fff;
@@ -1382,15 +1378,15 @@
     padding-top: 180px;
 }
 .client.home_page2 {
-    /*    background: url("../images/bg/12.jpg") no-repeat scroll center -121px / cover ;*/
+    /*    background: url("../images/bg/12.webp") no-repeat scroll center -121px / cover ;*/
     position: relative;
 }
 .about.about2{
     position: relative;
 }
 .perelaxBg1 {
-    /*background: rgba(0, 0, 0, 0) url("../images/bg/p1.png") no-repeat center 0 ;*/
-    background: rgba(0, 0, 0, 0) url("../images/mi/indonesian-map.png") no-repeat center/cover;
+    /*background: rgba(0, 0, 0, 0) url("../images/bg/p1.webp") no-repeat center 0 ;*/
+    background: rgba(0, 0, 0, 0) url("../images/mi/indonesian-map.webp") no-repeat center/cover;
     left: 0;
     position: absolute;
     right: 0;
@@ -1400,7 +1396,7 @@
     width: auto;
 }
 .perelaxBg2 {
-    background: rgba(0, 0, 0, 0) url("../images/bg/p2.png") no-repeat center 0 ;
+    background: rgba(0, 0, 0, 0) url("../images/bg/p2.webp") no-repeat center 0 ;
     left: 0;
     position: absolute;
     right: 0;
@@ -1410,7 +1406,7 @@
     width: auto;
 }
 .perelaxBg3 {
-    background: rgba(0, 0, 0, 0) url("../images/bg/p3.png") no-repeat center 0 ;
+    background: rgba(0, 0, 0, 0) url("../images/bg/p3.webp") no-repeat center 0 ;
     left: 0;
     position: absolute;
     right: 0;
@@ -1420,7 +1416,7 @@
     width: auto;
 }
 .perelaxBg4 {
-    background: rgba(0, 0, 0, 0) url("../images/bg/p4.png") no-repeat scroll center 0;
+    background: rgba(0, 0, 0, 0) url("../images/bg/p4.webp") no-repeat scroll center 0;
     height: 170px;
     left: 0;
     margin: auto;
@@ -1430,7 +1426,7 @@
     width: auto;
 }
 .perelaxBg5 {
-    background: rgba(0, 0, 0, 0) url("../images/bg/p5.png") no-repeat scroll center 0;
+    background: rgba(0, 0, 0, 0) url("../images/bg/p5.webp") no-repeat scroll center 0;
     height: 486px;
     left: 0;
     margin: auto;
@@ -1534,7 +1530,6 @@
     border-top: 1px solid #e6e6e6;
     padding-top: 40px;
 }
-.workMeta{}
 .workMeta.servic{
     padding-left: 15px;
 }
@@ -1808,7 +1803,7 @@
 [19] BLOG DETAIL
 =========================================================================*/
 .blogDetailsSec{
-    background: url(../images/bg/11.jpg) no-repeat scroll center center/cover;
+    background: url(../images/bg/11.webp) no-repeat scroll center center/cover;
     position: relative;
     height: 80vh;
 }
@@ -2331,8 +2326,6 @@
     position: absolute;
     top: auto;
 }
-
-.header3{}
 .fixednavHeader {
     z-index: 9;
     text-align: right;
@@ -2395,7 +2388,6 @@
     display: inline-block;
     opacity: .10;
 }
-.parTwoContent{}
 .parTwoContent h1 span{
     color: #fff;
 }
@@ -2444,7 +2436,7 @@
     -moz-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     z-index: 9;
-    background: url(../images/mi/hero-divider.png) no-repeat center;
+    background: url(../images/mi/hero-divider.webp) no-repeat center;
     pointer-events: none;
 }
 .lead{
@@ -2453,12 +2445,10 @@
 
 .demographic{
     padding: 60px 0 0;
-    background: url(../images/mi/demographic-bg.jpg) no-repeat center fixed;
+    background: url(../images/mi/demographic-bg.webp) no-repeat center fixed;
     background-size: cover;
 }
-.demographic .row:first-child{
-    /*margin-bottom: 40px;*/
-}
+
 .demographic .sectionTitle h5,
 .demographic .sectionTitle h3{
     color: #fff;
@@ -2495,7 +2485,7 @@
 }
 .stats{
     padding: 80px 0;
-    background: url(../images/bg/6.jpg) no-repeat center top;
+    background: url(../images/bg/6.webp) no-repeat center top;
 }
 .statslider .item{
     padding: 0 10px;
@@ -2568,7 +2558,7 @@ section{
     transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
-    background: url(../images/mi/play-bt.png) no-repeat center;
+    background: url(../images/mi/play-bt.webp) no-repeat center;
     background-size: contain;
 }
 .video-section{
@@ -2589,7 +2579,7 @@ section{
 .program-cover{
     text-align: center;
     padding: 100px 0;
-    background: url(../images/bg/6.jpg) no-repeat;
+    background: url(../images/bg/6.webp) no-repeat;
     background-position-y: -100%;
 }
 .program-cover h2,
@@ -2686,13 +2676,13 @@ section{
 }
 
 .coffee-experience{
-    background: url(../images/mi/xp-bg.jpg) no-repeat center fixed;
+    background: url(../images/mi/xp-bg.webp) no-repeat center fixed;
     background-size: cover;
 }
 
 .master-class{
     padding: 100px 0;
-    background: url(../images/mi/mc-bg.jpg) no-repeat center bottom;
+    background: url(../images/mi/mc-bg.webp) no-repeat center bottom;
     background-size: cover;
 }
 
@@ -2725,17 +2715,17 @@ section{
 }
 
 .smc{
-    background: url(../images/mi/smc-bg.jpg) no-repeat center bottom;
+    background: url(../images/mi/smc-bg.webp) no-repeat center bottom;
     background-size: cover;
     padding: 100px 0;
 }
 .hiburan{
-    background: url(../images/bg/6.jpg) repeat-x;
+    background: url(../images/bg/6.webp) repeat-x;
     background-position-y: -100px;
 }
 
 .program .aboutTop.home_page2{
-    background: url(../images/bg/7.jpg) no-repeat center;
+    background: url(../images/bg/7.webp) no-repeat center;
     padding-top: 90px;
     padding-bottom: 130px;
 }
@@ -2767,7 +2757,7 @@ section{
 }
 
 .objectives{
-    background: url(../images/mi/obj-bg.jpg) no-repeat center;
+    background: url(../images/mi/obj-bg.webp) no-repeat center;
     background-size: cover;
 }
 .obj-cards{
